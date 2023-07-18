@@ -16,9 +16,9 @@ def guess_random_number():
             count += 1
             user_number = int(input('Перебор, лол, не угадал.\n'))
     print(f'Бинго, это число {ai_number}')
-    return print('Быстро ты') if count < 3\
-        else print('Ну такой из тебя отгадыватель, средненький') if 2 < count <= 5\
-        else print('Ппц ты черепаха конечно')
+    return print('Быстро ты!') if count < 3\
+        else print('Такой из тебя отгадыватель, средненький') if 2 < count <= 5\
+        else print('Ну ты и черепаха конечно')
 
 
 if __name__ == '__main__':
